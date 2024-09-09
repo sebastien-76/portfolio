@@ -16,6 +16,7 @@ Afin de valider mon titre pro, j'ai effectué un stage pour un fromager ambulant
 Pour cela, j'ai choisi react pour réaliser son site web et Symfony pour le back-end.
 
 ## Front-end
-
+Page de présentation globale du commercant puis pages détaillant ses produits, ses points de ventes ainsi qu'une page de contact.
 
 ## Back-end
+Interface réalisée avec Easyadmin permettant au commercant de gérer ses produits, ses points de ventes : il peut, ainsi, créer, ajouter, modifier ou supprimer toute information nécessaire à sa communication.

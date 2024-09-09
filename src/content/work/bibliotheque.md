@@ -10,13 +10,15 @@ tags:
   - BdD MariaDB
 ---
 
-Exercice ayant pour but de mettre en place une base de données relationnelle, déveloper des composants d’accès aux données SQL, de développer des composants métier coté serveur.
+Exercice ayant pour but de mettre en place une base de données relationnelle, de développer des composants d’accès aux données SQ et des composants métier coté serveur.
+
+Lien vers la bibliothèque
 
 Exercice divisé en 3 parties:
 
 - [Création de la base de données](https://github.com/sebastien-76/bibliotheque/blob/main/doc/ECF_Back-Part_1.md)
 
-Implémentation de la structure ainsi que des données de test.
+Implémentation de la structure en suivant un cahier des charges précis (détails dans le lien ci-dessus) ainsi que des données de test.
 
 - [Utilisation des composants d'accès aux données](https://github.com/sebastien-76/bibliotheque/blob/main/doc/ECF_Back-Part_2.md)
 
