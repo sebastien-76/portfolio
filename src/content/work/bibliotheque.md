@@ -7,12 +7,12 @@ description: |
   Exercice d'évalution back-end de la formation dev web
 tags:
   - PHP / Symfony
-  - BdD MariaDB
+  - MariaDB
 ---
 
-Exercice ayant pour but de mettre en place une base de données relationnelle, de développer des composants d’accès aux données SQ et des composants métier coté serveur.
+Exercice ayant pour but de mettre en place une base de données relationnelle, de développer des composants d’accès aux données et des composants métier coté serveur.
 
-Lien vers la bibliothèque
+[Bibliotheque](https://bibliotheque.sebastienmaillet.fr/)
 
 Exercice divisé en 3 parties:
 
