@@ -1,7 +1,7 @@
 ---
 title: Portfolio
 publishDate: 2020-03-02 00:00:00
-img: /assets/stock-1.jpg
+img: /assets/portfolio.png
 img_alt: page d'accueil du portfolio
 description: |
   Portfolio

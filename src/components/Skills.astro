@@ -2,8 +2,8 @@
 import Icon from './Icon.astro';
 ---
 
-<section class="box skills">
-	<div class="stack gap-2 lg:gap-4">
+<section class="box">
+<!-- 	<div class="stack gap-2 lg:gap-4">
 		<Icon icon="terminal-window" color="var(--accent-regular)" size="2.5rem" gradient />
 		<h2>Full Stack</h2>
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
@@ -17,7 +17,100 @@ import Icon from './Icon.astro';
 		<Icon icon="strategy" color="var(--accent-regular)" size="2.5rem" gradient />
 		<h2>Esprit d'équipe</h2>
 		<p>Urna porttitor rhoncus dolor purus non enim praesent ornare.</p>
-	</div>
+	</div> -->
+	<h3>Compétences techniques</h3>
+	<div class="skills">
+	<img
+		alt="icone html"
+		width="60"
+		height="60"
+		src="/assets/Icones/html-5.png"
+	/>
+	<img
+		alt="icone css"
+		width="50"
+		height="50"
+		src="/assets/Icones/css.png"
+	/>
+	<img
+		alt="icone javascript"
+		width="50"
+		height="50"
+		src="/assets/Icones/JavaScript.png"
+	/>
+	<img
+		alt="icone react"
+		width="50"
+		height="50"
+		src="/assets/Icones/react.jpeg"
+	/>
+	<img
+		alt="icone php"
+		width="50"
+		height="50"
+		src="/assets/Icones/php.png"
+	/>
+	<img
+		alt="icone symfony"
+		width="50"
+		height="50"
+		src="/assets/Icones/symfony.png"
+	/>
+	<img
+		alt="icone nodejs"
+		width="50"
+		height="50"
+		src="/assets/Icones/NodeJS.jpg"
+	/>
+	<img
+		alt="icone mariadb"
+		width="50"
+		height="50"
+		src="/assets/Icones/Mariadb.png"
+	/>
+	<img
+		alt="icone apiplatform"
+		width="50"
+		height="50"
+		src="/assets/Icones/apiplatform.png"
+	/>
+	<img
+		alt="icone python"
+		width="50"
+		height="50"
+		src="/assets/Icones/Python-logo-notext.svg.png"
+	/>
+	<img
+		alt="icone git"
+		width="50"
+		height="50"
+		src="/assets/Icones/git.png"
+	/>
+	<img
+		alt="icone vscode"
+		width="50"
+		height="50"
+		src="/assets/Icones/vscode.png"
+	/>
+	<img
+		alt="icone insomnia"
+		width="50"
+		height="50"
+		src="/assets/Icones/insomnia.png"
+	/>
+	<img
+		alt="icone trello"
+		width="50"
+		height="50"
+		src="/assets/Icones/trello.png"
+	/>
+	<img
+		alt="icone mardockeriadb"
+		width="50"
+		height="50"
+		src="/assets/Icones/docker.png"
+	/>
+</div>
 </section>
 
 <style>
@@ -31,8 +124,10 @@ import Icon from './Icon.astro';
 
 	.skills {
 		display: flex;
-		flex-direction: column;
-		gap: 3rem;
+		flex-direction: row;
+		gap: 0.5rem;
+		flex-wrap: wrap;
+		margin-top: 1.5rem;
 	}
 
 	.skills h2 {
@@ -50,9 +145,7 @@ import Icon from './Icon.astro';
 		}
 
 		.skills {
-			display: grid;
-			grid-template-columns: repeat(3, 1fr);
-			gap: 5rem;
+			gap: 1.5rem;
 		}
 
 		.skills h2 {
