@@ -1,6 +1,6 @@
 ---
 title: Portfolio
-publishDate: 2020-03-02 00:00:00
+publishDate: 2024-09-17 00:00:00
 img: /assets/portfolio.png
 img_alt: page d'accueil du portfolio
 description: |

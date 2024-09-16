@@ -1,6 +1,6 @@
 ---
 title: Bingo
-publishDate: 2020-03-02 00:00:00
+publishDate: 2024-00-13 00:00:00
 img: /assets/bingo/bingodetraverse_accueil.png
 img_alt: page du bingo
 description: |

@@ -1,6 +1,6 @@
 ---
 title: Site d'un fromager ambulant
-publishDate: 2024-03-04 00:00:00
+publishDate: 2023-12-01 00:00:00
 img: /assets/fromager/accueil_front.png
 img_alt: page d'accueil du fromager ambulant
 description: |
