@@ -12,4 +12,4 @@ tags:
 ---
 
 
-Site sur lequel vous êtes qui me permet de vous présenter des projets de ma formation dev web - web mobile à aujourd'hui et qui m'a permis de découvrir le framework astro
+Site sur lequel vous êtes qui me permet de vous présenter des projets de ma formation dev web - web mobile à aujourd'hui!
