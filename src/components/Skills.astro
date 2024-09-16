@@ -20,97 +20,112 @@ import Icon from './Icon.astro';
 	</div> -->
 	<h3>Compétences techniques</h3>
 	<div class="skills">
-	<img
-		alt="icone html"
-		width="60"
-		height="60"
-		src="/assets/Icones/html-5.png"
-	/>
-	<img
-		alt="icone css"
-		width="50"
-		height="50"
-		src="/assets/Icones/css.png"
-	/>
-	<img
-		alt="icone javascript"
-		width="50"
-		height="50"
-		src="/assets/Icones/JavaScript.png"
-	/>
-	<img
-		alt="icone react"
-		width="50"
-		height="50"
-		src="/assets/Icones/react.jpeg"
-	/>
-	<img
-		alt="icone php"
-		width="50"
-		height="50"
-		src="/assets/Icones/php.png"
-	/>
-	<img
-		alt="icone symfony"
-		width="50"
-		height="50"
-		src="/assets/Icones/symfony.png"
-	/>
-	<img
-		alt="icone nodejs"
-		width="50"
-		height="50"
-		src="/assets/Icones/NodeJS.jpg"
-	/>
-	<img
-		alt="icone mariadb"
-		width="50"
-		height="50"
-		src="/assets/Icones/Mariadb.png"
-	/>
-	<img
-		alt="icone apiplatform"
-		width="50"
-		height="50"
-		src="/assets/Icones/apiplatform.png"
-	/>
-	<img
-		alt="icone python"
-		width="50"
-		height="50"
-		src="/assets/Icones/Python-logo-notext.svg.png"
-	/>
-	<img
-		alt="icone git"
-		width="50"
-		height="50"
-		src="/assets/Icones/git.png"
-	/>
-	<img
-		alt="icone vscode"
-		width="50"
-		height="50"
-		src="/assets/Icones/vscode.png"
-	/>
-	<img
-		alt="icone insomnia"
-		width="50"
-		height="50"
-		src="/assets/Icones/insomnia.png"
-	/>
-	<img
-		alt="icone trello"
-		width="50"
-		height="50"
-		src="/assets/Icones/trello.png"
-	/>
-	<img
-		alt="icone mardockeriadb"
-		width="50"
-		height="50"
-		src="/assets/Icones/docker.png"
-	/>
-</div>
+		<img
+			alt="icone html"
+			width="60"
+			height="60"
+			src="/assets/Icones/html-5.png"
+			title="html"
+		/>
+		<img
+			alt="icone css"
+			width="50"
+			height="50"
+			src="/assets/Icones/css.png"
+			title="css"
+		/>
+		<img
+			alt="icone javascript"
+			width="50"
+			height="50"
+			src="/assets/Icones/JavaScript.png"
+			title="javascript"
+		/>
+		<img
+			alt="icone react"
+			width="50"
+			height="50"
+			src="/assets/Icones/react.jpeg"
+			title="react"
+		/>
+		<img
+			alt="icone php"
+			width="50"
+			height="50"
+			src="/assets/Icones/php.png"
+			title="php"
+		/>
+		<img
+			alt="icone symfony"
+			width="50"
+			height="50"
+			src="/assets/Icones/symfony.png"
+			title="symfony"
+		/>
+		<img
+			alt="icone nodejs"
+			width="50"
+			height="50"
+			src="/assets/Icones/NodeJS.jpg"
+			title="Node.js"
+		/>
+		<img
+			alt="icone mariadb"
+			width="50"
+			height="50"
+			src="/assets/Icones/Mariadb.png"
+			title="mariaDB"
+		/>
+		<img
+			alt="icone apiplatform"
+			width="50"
+			height="50"
+			src="/assets/Icones/apiplatform.png"
+			title="API Platform"
+		/>
+		<img
+			alt="icone python"
+			width="50"
+			height="50"
+			src="/assets/Icones/Python-logo-notext.svg.png"
+			title="python"
+		/>
+		<img
+			alt="icone git"
+			width="50"
+			height="50"
+			src="/assets/Icones/git.png"
+			title="git"
+		/>
+		<img
+			alt="icone vscode"
+			width="50"
+			height="50"
+			src="/assets/Icones/vscode.png"
+			title="vscode"
+		/>
+		<img
+			alt="icone insomnia"
+			width="50"
+			height="50"
+			src="/assets/Icones/insomnia.png"
+			title="insomnia"
+		/>
+		<img
+			alt="icone trello"
+			width="50"
+			height="50"
+			src="/assets/Icones/trello.png"
+			title="trello"
+		/>
+		<img
+			alt="icone mardockeriadb"
+			width="50"
+			height="50"
+			src="/assets/Icones/docker.png"
+			title="docker"
+		/>
+	</div>
 </section>
 
 <style>
@@ -125,19 +140,23 @@ import Icon from './Icon.astro';
 	.skills {
 		display: flex;
 		flex-direction: row;
-		gap: 0.5rem;
+		gap: 1rem;
 		flex-wrap: wrap;
 		margin-top: 1.5rem;
 		justify-content: center;
 	}
 
-	.skills h2 {
+	.skills img:hover {
+		transform: scale(1.5)
+	}
+
+/* 	.skills h2 {
 		font-size: var(--text-lg);
 	}
 
 	.skills p {
 		color: var(--gray-400);
-	}
+	} */
 
 	@media (min-width: 50em) {
 		.box {
