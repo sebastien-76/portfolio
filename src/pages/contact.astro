@@ -1,0 +1,101 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+---
+
+<BaseLayout title="Contact" description="Contactez-moi">
+    <body>
+        <h1 class="centre">Contact</h1>
+        <p class="centre">
+            Compléter le formulaire ci-dessous pour me contacter.
+        </p>
+        <form method="POST" class="centre" id="form">
+            <div class="formulaire">
+                <input type="hidden" name="access_key" value="6f163b23-65fa-4d6a-9c52-f6eb6fd4be1a">
+                <input type="text" name="name" placeholder="Nom" />
+                <input type="email" name="email" placeholder="Email" />
+                <textarea name="message" placeholder="Message"></textarea>
+                <div class="h-captcha" data-captcha="true"></div>
+                <script src="https://web3forms.com/client/script.js" async defer></script>
+                <div>
+                    <button type="submit">Envoyer</button>
+                </div>
+                <div id="result"></div>
+            </div>
+        </form>
+    </body>
+</BaseLayout>
+
+<script is:inline>
+    const form = document.getElementById('form');
+    const result = document.getElementById('result');
+    
+    form.addEventListener('submit', function(e) {
+        const formData = new FormData(form);
+        e.preventDefault();
+    
+        const object = Object.fromEntries(formData);
+        const json = JSON.stringify(object);
+    
+        result.innerHTML = "Merci de patienter..."
+    
+        fetch('https://api.web3forms.com/submit', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Accept': 'application/json'
+                },
+                body: json
+            })
+            .then(async (response) => {
+                let json = await response.json();
+                if (response.status == 200) {
+                    result.innerHTML = json.message;
+                } else {
+                    console.log(response);
+                    result.innerHTML = json.message;
+                }
+            })
+            .catch(error => {
+                console.log(error);
+                result.innerHTML = "Une erreur est survenue, merci de réessayer dans quelques instants!";
+            })
+            .then(function() {
+                form.reset();
+                setTimeout(() => {
+                    result.style.display = "none";
+                }, 3000);
+            });
+    });
+    </script>
+
+<style>
+    body {
+        height: 100vh;
+    }
+
+    form {
+        width: 80vw;
+    }
+
+    .centre {
+        margin: 1rem auto;
+    }
+
+    .formulaire {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    input {
+        width: 50vw;
+        height: 5vh;
+    }
+
+    textarea {
+        width: 50vw;
+        height: 15vh;
+    }
+</style>
