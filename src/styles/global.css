@@ -227,6 +227,11 @@ h5 {
 	gap: 12rem;
 }
 
+img[src*="#thumbnail"] {
+	width:450px;
+	height:300px;
+ }
+
 @media (min-width: 50em) {
 	.lg\:gap-2 {
 		gap: 0.5rem;

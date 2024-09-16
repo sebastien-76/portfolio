@@ -1,14 +1,13 @@
 ---
 title: Bingo
 publishDate: 2020-03-02 00:00:00
-img: /assets/bingodetraverse.png
+img: /assets/bingo/bingodetraverse_accueil.png
 img_alt: page du bingo
 description: |
   Réalisation d'un bingo pour les gamemasters du Bingo de Traverse à Arras
 tags:
   - NodeJS
   - React
-  - Mobile First
 ---
 
 [Bingo](https://bingodetraverse.webvibebuilder.fr/)
@@ -26,4 +25,8 @@ Réalisé avec React en mobile first pour que les gamemasters puissent y accéde
 
 L'accès pour les joueurs (gamemasters) autorisés permet de modifier leur profil (photo de profil, pseudo, mot de passe, salles où ils sont formés) et de jouer au bingo.
 Un accès administrateur permet d'autoriser des gamemasters, de gérer les roles, de créer, modifier ou supprimer les phrases et les salles utilisées dans le bingo.
+
+![bingoAccueil](/assets/bingo/bingodetraverse.png#thumbnail)
+![bingoProfil](/assets/bingo/bingodetraverse_profil.png#thumbnail)
+
 
