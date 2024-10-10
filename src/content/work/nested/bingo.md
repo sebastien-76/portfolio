@@ -4,7 +4,7 @@ publishDate: 2024-00-13 00:00:00
 img: /assets/bingo/bingodetraverse_accueil.png
 img_alt: page du bingo
 description: |
-  Réalisation d'un bingo pour les gamemasters du Bingo de Traverse à Arras
+  Réalisation d'un bingo pour les gamemasters du Chemin de Traverse à Arras
 tags:
   - NodeJS
   - React
